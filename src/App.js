@@ -39,8 +39,6 @@ function App() {
             ) : (
               <>
                 <div>Drag a Palworld .sav file first</div>
-                <div className="space"></div>
-                <div>Does not work? <a href="https://github.com/iebb/PalworldSaveEditor/issues">github issues</a></div>
               </>
             )
           }
@@ -50,21 +48,7 @@ function App() {
           content={content}
           setContent={setContent}
         />
-        <div className={`status-bar small bottom-status-bar`}>
-          <div>
-            <a href="https://github.com/iebb/PalworldSaveEditor/issues">issues</a>
-          </div>
-          <div>
-            <a href={`https://github.com/iebb/PalworldSaveEditor/`}>github</a>
-          </div>
-          <div>made by ieb, based on uesave-rs</div>
-          <div>
-            <a href="https://www.vultr.com/?ref=9346006-8H">hosting: try vultr, $100 free credit to test out for 14d</a>
-          </div>
-          <div>
-            commit {__COMMIT_HASH__}
-          </div>
-        </div>
+        
       </div>
     </Dropper>
   );

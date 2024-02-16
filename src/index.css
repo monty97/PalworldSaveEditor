@@ -38,7 +38,7 @@ code {
   flex-grow: 0;
   flex-shrink: 0;
   padding: 8px 8px;
-  background: #3883fa;
+  background: #6c38fa;
   color: white;
   text-align: center;
   font-size: 15px;
@@ -47,7 +47,7 @@ code {
 }
 
 .error {
-  background: #fa3855;
+  background: #006b12;
 }
 
 .small {
