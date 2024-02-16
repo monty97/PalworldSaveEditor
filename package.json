@@ -2,7 +2,7 @@
   "name": "palsave",
   "version": "0.1.0",
   "private": true,
-  "homepage": "palworld-save-editor/",
+  "homepage": "/",
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@msgpack/msgpack": "^3.0.0-beta2",
